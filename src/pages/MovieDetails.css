@@ -1,0 +1,201 @@
+.movie-details-div{
+    background-color: rgb(255, 246, 246);
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+.details-section-top{
+    background-color: darkblue;
+    display: flex;
+    width: 100%; 
+    padding: 30px 40px;
+    align-items: center;
+    color: white;
+    background: url('https://image.tmdb.org/t/p/w500/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/8bcoRX3hQRHufLPSDREdvr3YMXx.jpg') rgba(0, 0, 0, 0.226) no-repeat center center/cover;
+    background-blend-mode:overlay;
+
+}
+/* .details-section-top div{
+    margin-bottom: 30px;
+} */
+
+.poster-wrap{
+    min-width: 300px;
+    height: 450px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.poster-wrap img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.movie-detail-wrap{
+    padding-left: 40px;
+
+}
+.movie-detail-wrap div{
+    margin-bottom: 20px;
+
+}
+
+.heading-wrap h1{
+    font-size: 2rem;
+}
+.heading-wrap p{
+    font-size: 0.98rem;
+    font-weight: 600;
+}
+.heading-wrap p span{
+    margin-right: 12px;
+}
+.release-date{
+    color: white;
+}
+.genre{
+    /* margin: 4px; */
+}
+
+.user-interaction-wrap ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.user-interaction-wrap ul li{
+    margin-right: 25px;
+   
+
+}
+.personal-intract{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(3,37,65);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+}
+.movie-rating{
+    /* position:relative; */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.overview-heading{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.crew-people-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 200px;
+}
+.people-details{
+    margin: 10px 20px;
+}
+.membar-name{
+    font-weight: 600;
+    font-size: 1.0.2rem;
+}
+
+/********** Styling crew card section ********/
+.crew-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.crew-section :nth-child(n){
+    margin-bottom: 20px;
+}
+
+.crew-container{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    /* scroll-behavior: smooth; */
+
+}
+.crew-card{
+    border-radius: 8px;
+    /* overflow: hidden; */
+    background: white;
+    margin-right: 20px;
+    width: 138px;
+    /* height: 175px; */
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+.crew-img-wrap{
+    min-width: 138px;
+    width: 138px;
+    height: 175px;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+}
+.crew-img-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.crew-name-wrap{
+    padding: 0px 10px;
+}
+.crew-real-name{
+    font-weight: 600;
+    font-size: 1.02rem;
+}
+.known-for{
+    color: #3f3f3f;
+    font-size: 0.9rem;
+}
+
+/*********** media section ***********/
+.media-section{
+padding: 10px 20px
+}
+.media-heading{
+    margin-bottom: 20px;
+}
+.media-wrap{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+/************* Recommmend section ***********/
+.recommendation-section{
+    padding: 20px 20px;
+}
+.recommendation-section h2{
+    margin-bottom: 20px;
+
+}
+.recommend-wrap{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.recommend-card{
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    min-width: 250px;
+    /* height: 141px; */
+    overflow: hidden;
+    margin-right: 20px;
+}
+.recommend-card img{
+    width: 100%;
+}
+.recommend-name{
+    color: black;
+}
